@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 5
+replicaCount: 2
 
 image:
   repository: 8946855548/ajayr
@@ -38,7 +38,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8083
 
 ingress:
   enabled: false
